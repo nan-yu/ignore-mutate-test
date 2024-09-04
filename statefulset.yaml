@@ -4,7 +4,7 @@ metadata:
   annotations:
     client.lifecycle.config.k8s.io/mutation: ignore
   name: web
-  namespace: test-ns1
+  namespace: test-ns2
 spec:
   serviceName: "nginx"
   replicas: 2
